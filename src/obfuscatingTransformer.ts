@@ -36,7 +36,7 @@ export interface ObfuscatingTransformerOptions {
   enableInDevelopment?: boolean
 }
 
-const sourceDir = path.join(appRootPath, "src")
+const sourceDir = path.join(appRootPath, "App")
 
 export function obfuscatingTransformer({
   filter = filename => filename.startsWith(sourceDir),
